@@ -299,6 +299,10 @@ align-items: center;
 
 .footer {
     background-color: #2E2F42;
+    display: flex;
+    flex-direction: column;
+    column-gap: 16px;
+    margin-left: 156px;
 }
 
 .footer-logo {
@@ -309,9 +313,7 @@ align-items: center;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 16px;
     margin-top: 101.5px;
-    margin-right: 156px;
 }
 
 .footer-logo-part {
@@ -330,7 +332,5 @@ align-items: center;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 156px;
-    margin-bottom: 100px;
 }
 
