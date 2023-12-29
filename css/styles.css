@@ -17,11 +17,11 @@ a {
     color: currentColor;
 }
 
-ul {
+ul, ol {
     list-style: none;
     margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -29,13 +29,19 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
-.header {
+
+.header-container {
     display: flex;
+    align-items: center;
 }
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .menu {
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
+display: flex;
+align-items: center;
 }
 
 .logo {
@@ -46,10 +52,17 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-part {
     color: #2E2F42;
+    padding-right: 76px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link {
@@ -58,6 +71,8 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
@@ -67,7 +82,14 @@ ul {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
 
 .address-link {
     color: #434455;
@@ -126,6 +148,20 @@ ul {
 
 .advantages {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .adv-name {
@@ -263,8 +299,6 @@ ul {
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -275,6 +309,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
