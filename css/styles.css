@@ -144,6 +144,9 @@ align-items: center;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
+    border: none;
+    height: 56px;
+    min-width: 169px;
 }
 
 .button:hover,
