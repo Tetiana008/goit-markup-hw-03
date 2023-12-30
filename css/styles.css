@@ -118,6 +118,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding: 188px 0;
+    max-width: 496px;
 }
 
 
@@ -128,7 +130,6 @@ align-items: center;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
 }
 
 .button {
@@ -234,6 +235,7 @@ align-items: center;
 
 .team-player {
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name-container {
