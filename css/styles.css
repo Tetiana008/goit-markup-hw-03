@@ -112,10 +112,13 @@ align-items: center;
 .name {
     background-color: #2E2F42;
     height: 600px;
+    }
+
+.name-container {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    }
+}
 
 
 .name-item {
